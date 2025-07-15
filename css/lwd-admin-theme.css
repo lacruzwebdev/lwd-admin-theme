@@ -1069,6 +1069,10 @@ body:not(.block-editor-page) input[type="radio"]:active {
   border-left-color: var(--lwd-color-danger);
 }
 
+.components-button.is-primary {
+  background: var(--lwd-color-primary)!important;;
+}
+
 @media (max-width: 768px) {
   .page-title-action {
     float: none !important;
